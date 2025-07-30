@@ -1,0 +1,40 @@
+
+
+.nokat-container{
+    position: relative;
+    width: 70vh;
+    height: 50vh;
+    background-color: #424242;
+    padding: 20px;
+    border-radius: 40px;
+    color:#F6CF68;
+}
+
+
+
+
+  .fun-red-button {
+      position: absolute;
+      top: 45vh;
+      left: 53vh;
+      background-color: #e53935;
+      color: white;
+      font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+      font-size: 18px;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(229, 57, 53, 0.4);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .fun-red-button:hover {
+      transform: scale(1.1) rotate(-1deg);
+      box-shadow: 0 8px 25px rgba(229, 57, 53, 0.6);
+    }
+
+    .fun-red-button:active {
+      transform: scale(0.95);
+      box-shadow: 0 3px 10px rgba(229, 57, 53, 0.3);
+    }
